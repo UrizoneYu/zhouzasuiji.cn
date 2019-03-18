@@ -19,6 +19,10 @@
 	    <script src="../js/bootstrap.min.js"></script>
 	    <script src="../js/pace.min.js"></script>
 	    <script src="../js/modernizr.custom.js"></script>
+
+	    <!-- comment -->
+	    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+        <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 	</head>
 
 	<body id="single">
@@ -64,7 +68,7 @@
 							</header>
 							<div class="entry-content clearfix">	
 								<div>
-									<h3>一、如何规划一款好产品？</h3>
+									<h3>如何规划一款好产品？</h3>
 									<p>
  										<p>
  											在你准备计划推出一款产品时，可能都遇到以下三种情况。
@@ -127,7 +131,7 @@
 								</div>
 
 								<div>
-									<h3>二、当我们在谈论技术实力的时候，我们到底在聊什么？</h3>
+									<h3>我们在谈论技术实力的时候，我们到底在聊什么？</h3>
 									<p>
 										<p>
 											今年下半年，裁员势头很是凶狠。一些技术实力不咋地的员工直接面临“下岗再就业”的情况。而在职的人却认为自己的技术实力摆在那里，肯定不会成为挨宰者。
@@ -158,25 +162,20 @@
 										</p>
 									</p>	
 								</div>
-										
-								<div>
-									<h3>三、剁手购物再吃土</h3>
-									<p>
-										<p>
-											sticker shock：价格冲击</br>
-											courier：运送者</br>
-											delivery：递送</br>
-											exchange：换货</br>
-											return：退货</br>
-											take it back：把它送回</br>
-											refund：退款</br>
-											store credit：商店积分</br>
-											max out your credit card：刷爆你的信用卡
-										</p>
-								    </p>
-								</div>	
-
+									
 							</div>
+							<div id="vcomments"></div>
+						    <script>
+						        new Valine({
+						            el: '#vcomments' ,
+								    appId: 'VE7y7Rq5F1RhlzC3mHSqya39-gzGzoHsz',
+								    appKey: '8HJmqX1VuEGLp2X0uc5fO9df',
+								    notify:false, 
+								    verify:false, 
+								    avatar:'mm', 
+								    placeholder: '客官，欢迎您的评论！（记得加上昵称哦~）' 
+								});
+						    </script>
 						</article>
 					</main>
 				</div>
@@ -186,7 +185,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<p class="copyright">2018 - 2019 &copy; powered by Masa</p>
+						<p class="copyright">2018 - 2019 &copy; powered by MasaYu</p>
 					</div>
 				</div>
 			</div>

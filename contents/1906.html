@@ -19,6 +19,10 @@
 	    <script src="../js/bootstrap.min.js"></script>
 	    <script src="../js/pace.min.js"></script>
 	    <script src="../js/modernizr.custom.js"></script>
+
+	    <!-- comment -->
+	    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+        <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 	</head>
 
 	<body id="single">
@@ -65,7 +69,7 @@
 							<div class="entry-content clearfix">	
 
 								<div>
-									<h3>一、关于客服</h3>
+									<h3>关于客服</h3>
 									<p>
 										<p>
 											我们多么希望用户们别在无理取闹，别在牛逼轰轰，别在自以为是。但是，用户就像女朋友，气头上和她讲道理，没有半点用。
@@ -102,7 +106,7 @@
 								</div>
 								
 								<div>
-									<h3>二、有趣的内容</h3>
+									<h3>有趣的内容</h3>
 									<p>
 										<p>
 											人们无法在同一款产品或者项目里面获得持续兴奋点，"有趣"只能短暂地黏住用户，用户会在不同类型的有趣产品之间来回切换来获得惊奇点。
@@ -129,6 +133,18 @@
 								</div>
 
 							</div>
+							<div id="vcomments"></div>
+						    <script>
+						        new Valine({
+						            el: '#vcomments' ,
+								    appId: 'VE7y7Rq5F1RhlzC3mHSqya39-gzGzoHsz',
+								    appKey: '8HJmqX1VuEGLp2X0uc5fO9df',
+								    notify:false, 
+								    verify:false, 
+								    avatar:'mm', 
+								    placeholder: '客官，欢迎您的评论！（记得加上昵称哦~）' 
+								});
+						    </script>
 						</article>
 					</main>
 				</div>
@@ -138,7 +154,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<p class="copyright">2018 - 2019 &copy; powered by Masa</p>
+						<p class="copyright">2018 - 2019 &copy; powered by MasaYu</p>
 					</div>
 				</div>
 			</div>

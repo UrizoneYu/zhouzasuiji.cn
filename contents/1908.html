@@ -19,6 +19,10 @@
 	    <script src="../js/bootstrap.min.js"></script>
 	    <script src="../js/pace.min.js"></script>
 	    <script src="../js/modernizr.custom.js"></script>
+
+	    <!-- comment -->
+	    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+        <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 	</head>
 
 	<body id="single">
@@ -65,7 +69,7 @@
 							<div class="entry-content clearfix">	
 
 								<div>
-									<h3>一、日本游戏观 — 日本文化价值的缩影</h3>
+									<h3>日本游戏观 — 日本文化价值的缩影</h3>
 									<p>
 										<p>
 											游戏是文化价值的缩影。不同地区、不同国家的游戏体验者，由于其历史与文化价值观的不同，在游戏选择与游戏设计上，定然存在着异同之处。下面分别从游戏故事情节、游戏观察视角、游戏人物角色、游戏难度、类型嗜好和游戏体验动机上，对比一部分欧美玩家的特点，进行简答说明。旨在让我们通过日本人的游戏观，来大致了解日本社会的价值观。
@@ -117,6 +121,18 @@
 								</div>
 								
 							</div>
+							<div id="vcomments"></div>
+						    <script>
+						        new Valine({
+						            el: '#vcomments' ,
+								    appId: 'VE7y7Rq5F1RhlzC3mHSqya39-gzGzoHsz',
+								    appKey: '8HJmqX1VuEGLp2X0uc5fO9df',
+								    notify:false, 
+								    verify:false, 
+								    avatar:'mm', 
+								    placeholder: '客官，欢迎您的评论！（记得加上昵称哦~）' 
+								});
+						    </script>
 						</article>
 					</main>
 				</div>
@@ -126,7 +142,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<p class="copyright">2018 - 2019 &copy; powered by Masa</p>
+						<p class="copyright">2018 - 2019 &copy; powered by MasaYu</p>
 					</div>
 				</div>
 			</div>

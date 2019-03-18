@@ -19,6 +19,10 @@
 	    <script src="../js/bootstrap.min.js"></script>
 	    <script src="../js/pace.min.js"></script>
 	    <script src="../js/modernizr.custom.js"></script>
+
+	    <!-- comment -->
+	    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+        <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 	</head>
 
 	<body id="single">
@@ -64,7 +68,7 @@
 							</header>
 							<div class="entry-content clearfix">	
 								<div>
-									<h3>一、向面试官提问的9个问题</h3>
+									<h3>向面试官提问的9个问题</h3>
 									<p>1，您为什么从众多简历中选我参加面试？</br>
 										2，目前贵公司部门所面对的最大挑战是什么？（通过这个问题了解公司最需要的是什么）</br>
 										3，贵公司与竞争对手不同在什么方面？</br>
@@ -81,21 +85,7 @@
 								</div>
 
 								<div>
-									<h3>二、Office常用俚语</h3>
-									<p>1Work your butt off：拼命工作</br>
-										Work for peanuts: 挣得很少</br>
-										Work out: 解决问题</br>
-										Dirty work: 不法行为，勾当</br>
-										Work like a charm: 非常奏效</br>
-										A woman's work is never done: 女性形容自己忙碌的生活</br>
-										Nice work: 干的漂亮</br>
-										Keep up the good work: 再接再厉</br>
-										all work and no play！: 不要只工作不休息！</br>
-									</p>	
-								</div>
-
-								<div>
-									<h3>三、如何判断HR工作的优先级以及具体哪些工作值得投入？</h3>
+									<h3>如何判断HR工作的优先级以及具体哪些工作值得投入？</h3>
 									<p>建议一：不要轻易作制度。如果不知道该如何做什么、怎么做的话，不如不做。</p>
 									<p>原因有三：其一：HR制度建起来难，取消更难。其二：HR制度不是建立起来就发挥作用了，而是需要运营的，并且是要长期的运营才能有用。其三：制度建立和运营的过程可能会过度吸引团队的注意力，而起到反作用；机制越复杂，消耗的注意力越多。</p>
 									<p>建议二：回到人才管理的初衷 - 让公司里的人能最大化地促进公司的发展。</p>
@@ -106,7 +96,7 @@
 								</div>
 
 								<div>
-									<h3>四、知识整理高效方法</h3>
+									<h3>知识整理高效方法</h3>
 									<p>传统的整理方式为：关键词，摘录，标注。三者都会遇到一个问题：当笔记堆积很多时，很难有效地进行整理和利用。</p>
 									<p>大部分人把“知识收集”当成了“知识记录”。收集是把接触的资料和信息汇总起来，转移到某个平台；从无序变为有序。而记录是把你的想法进行外部化，便于更好的整理思维。</p>
 									<p>如何改变这种集邮式的阅读或笔记？</p>
@@ -122,7 +112,7 @@
 								</div>
 
 								<div>
-									<h3>五、人脉的本质</h3>
+									<h3>人脉的本质</h3>
 									<p>人脉的意义在于你能吸引谁；有多少人愿意主动和你打交道；在你落魄的时候，有多少人愿意帮你。</p>
 									<p>任何人际关系的本质就是交换关系。你的可交换价值越大，就越能吸引别人，愿意主动跟你打交道的人就越多。为了提升可交换价值，就需要做到以下三点：建立自身价值，放大交换系数，分层维护关系。</p>
 									<p>对于建立自身价值，首先要让自己具备一技之长，买某个领域有一定的个人价值后，由此交换，积累更多的人脉，再根据需要选择不同的价值互换方式；如果无法直接做价值交换，你可以选择作为“网络节点”，为别人牵线介绍到可用的价值交换对象。</p>
@@ -131,6 +121,18 @@
 
 								</div>										
 							</div>
+							<div id="vcomments"></div>
+						    <script>
+						        new Valine({
+						            el: '#vcomments' ,
+								    appId: 'VE7y7Rq5F1RhlzC3mHSqya39-gzGzoHsz',
+								    appKey: '8HJmqX1VuEGLp2X0uc5fO9df',
+								    notify:false, 
+								    verify:false, 
+								    avatar:'mm', 
+								    placeholder: '客官，欢迎您的评论！（记得加上昵称哦~）' 
+								});
+						    </script>
 						</article>
 					</main>
 				</div>
@@ -140,7 +142,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<p class="copyright">2018 - 2019&copy; powered by Masa</p>
+						<p class="copyright">2018 - 2019&copy; powered by MasaYu</p>
 					</div>
 				</div>
 			</div>

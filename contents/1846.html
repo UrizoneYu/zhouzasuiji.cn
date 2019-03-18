@@ -19,6 +19,10 @@
 	    <script src="../js/bootstrap.min.js"></script>
 	    <script src="../js/pace.min.js"></script>
 	    <script src="../js/modernizr.custom.js"></script>
+
+	    <!-- comment -->
+	    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+        <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 	</head>
 
 	<body id="single">
@@ -64,7 +68,7 @@
 							</header>
 							<div class="entry-content clearfix">
 								<div>
-									<h3>一、高段位之可迁移能力</h3>
+									<h3>高段位之可迁移能力</h3>
 									<p>可迁移能力：跨岗、跨行后的可复用能力</p>
 									<p>如何培养？</p>
 									<p>1，认清你所在行业的本质是什么？</p>
@@ -82,47 +86,38 @@
 								</div>
 
 								<div>
-									<h3>二、广告拦截原理</h3>
+									<h3>广告拦截原理</h3>
 									<p>请求拦截：将广告请求的脚本文件从请求上进行拦截，不发送广告脚本请求的广告信息，即收不到广告结果。</p>
 									<p>元素移除：将含有广告的元素从浏览器中移除或隐藏，让用户看不到页面上的广告，通常会有一套规则识别广告元素进而进行移除操作。</p>							
 								</div>
 
 								<div>
-									<h3>三、用户观看广告的习惯不会被弱化</h3>
+									<h3>用户观看广告的习惯不会被弱化</h3>
 									<p>电梯广告具有强制性，等待时间不会太长，很多人不会选择看手机，在选择变少的情况下，用户就会选择主动看广告。电梯广告以及影院映前广告，是消费者主动关注度最高的广告。</p>	
 
 								</div>
 
 								<div>
-									<h3>四、5步拯救你的情商</h3>
+									<h3>5步拯救你的情商</h3>
 									<p>认清自我</br>真正的认清自我是能认清自身的优势和不足，并且清楚这些优势和不足与他人比较会怎么样。</p>
 									<p>从关注自我到关注让人</br>给与他人应用的关注对事业陈宫举足轻重。</p>
 									<p>成为有益的交往对象</br>再给别人分配人事物或者寻求帮助前要保证适当的人际交往，这一点十分关键。经常主动地分享知识和资源，并且不求回报。</p>
 									<p>控制自己的情绪</br>在职场遇到矛盾时，先不要马上反馈，控制找情绪，花一段时间放松，等冷静下来再说。</p>
 									<p>保持谦逊，即使是假装</br>当问题出现时，团队成员会向自信的领导者求助，但也希望得到耐心的支持指导，共同改善状况。收起你的骄傲自大，选择性进行对抗，多找机会认可他人，及时你觉得自己是对的别人是错的。</p>															
 								</div>
-
-								<div>
-									<h3>五、如何文明地表达厕所？</h3>
-									<p>
-										WC: water closet</br>
-										北美常用此三种方式表达厕所: bathroom, washroom, restroom
-										亦或说成: men's room, women's room</br>
-										toilet: 马桶</br>
-										The John: 厕所</br>
-										potty：小孩用的马桶</br>
-										幼儿园中，男女厕所这样表达：little boy's room, little girl's room</br>
-										Pee：撒尿</br>
-										Poo：大便</br>
-										航班上的厕所: lavatory</br>
-										英国人常用的词：The loo</br>
-										买房、租房时指主卧里连带的厕所：Ensuite</br>
-										客人用的厕所：powder room</br>
-										委婉的表达去厕所：nature calls</br>
-										I need to use the washrooms.</br>
-									</p>									
-								</div>
 							</div>
+							<div id="vcomments"></div>
+						    <script>
+						        new Valine({
+						            el: '#vcomments' ,
+								    appId: 'VE7y7Rq5F1RhlzC3mHSqya39-gzGzoHsz',
+								    appKey: '8HJmqX1VuEGLp2X0uc5fO9df',
+								    notify:false, 
+								    verify:false, 
+								    avatar:'mm', 
+								    placeholder: '客官，欢迎您的评论！（记得加上昵称哦~）' 
+								});
+						    </script>
 						</article>
 					</main>
 				</div>
@@ -132,7 +127,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<p class="copyright">2018 - 2019 &copy; powered by Masa</p>
+						<p class="copyright">2018 - 2019 &copy; powered by MasaYu</p>
 					</div>
 				</div>
 			</div>

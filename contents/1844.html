@@ -19,6 +19,10 @@
 	    <script src="../js/bootstrap.min.js"></script>
 	    <script src="../js/pace.min.js"></script>
 	    <script src="../js/modernizr.custom.js"></script>
+
+	    <!-- comment -->
+	    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+        <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 	</head>
 
 	<body id="single">
@@ -64,12 +68,12 @@
 							</header>
 							<div class="entry-content clearfix">
 								<div>
-									<h3>一、消费升级态势</h3>
+									<h3>消费升级态势</h3>
 									<p>全网爆款正在被消灭，取而代之是人群爆款，不是由搜索引擎定义的全体流行，而是由不同用户群的需求促进的人群流行。网购品类从最初的服饰和床上用品，逐渐发展到3C家电，再往后美妆品牌进入爆发，现在是日常生活必需品。</p>
 								</div>
 
 								<div>
-									<h3>二、超级老板养成记</h3>
+									<h3>超级老板养成记</h3>
 									<p>超级老板在培养人才方面并非源于天赋，而是在选人和用人时采取特定做法。</p>
 									<p>一，选材不拘一格</p>
 									<p>聚焦人才的智力，创造力好灵活性。超级老板希望员工从新角度看待问题，处理突发状况，快速学习，并在任何岗位上都能表现突出。</p>
@@ -85,7 +89,7 @@
 								</div>
 
 								<div>
-									<h3>三、职业倦怠的团队如何激发激情？</h3>
+									<h3>职业倦怠的团队如何激发激情？</h3>
 									<p>赫兹伯格双因素理论：工资工作环境等属于保健因素而非激励因素。满足保健因素，能够减少员工的不满，但并不能真的激励员工—如果你对工作没有热情，哪怕给你更多的钱，更好的工作条件，你也不会产生热情，最多就是不讨厌。</p>
 									<p>工作特征模型（Job Characteristic Model, JCM）-影响工作绩效和表现的三种指标。</br>
 									1，意义感知：在多大程度上认为工作是有价值的和有意义的；</br>
@@ -113,7 +117,7 @@
 								</div>
 
 								<div>
-									<h3>四、常青藤爸爸——启蒙教育内容+电商</h3>
+									<h3>常青藤爸爸——启蒙教育内容+电商</h3>
 									<p>0-6岁儿童亲子互动的启蒙教育产品（立足微信生态），四大业务，：家庭教育媒体内容，英语国语的双语启蒙课，增值服务电商，出版物。</p>
 									<p>核心为：IP品牌+原创内容生产能力</p>
 									<p>将儿童年龄与训练任务分为6个阶段：</br>
@@ -125,24 +129,19 @@
 										6，3岁及5岁以上，开启分级阅读</p>
 								</div>
 
-								<div>
-									<h3>五、危险的Interesting</h3>
-									<p>interesting虽然是有意思的含义，但是在英语中其实更加多义与玄妙。</p>
-									<p>形容人的时候，多指与众不同、经历丰富的人。</br>
-										如果是褒义词，往往指一个人有丰富的人生经历、经验。如果是贬义词，往往指是一个人比较奇怪。</br>
-										interesting不代表好玩和幽默。</br>
-										fun interesting: 很会玩</br>
-										funny interesting: 很幽默</br>
-									</p>
-									<p>形容事的时候，这件事往往是让你思考，不是简单的有意思和有娱乐性。</br>
-										an interesting book: 有意思、有意义的书</br>
-										an interesting read: 很有意义的书</br>
-										a fun book: 好玩的书
-									</p>
-									<p>可以用awesome、terrific、great代替</p>
-								</div>
-
 							</div>
+							<div id="vcomments"></div>
+						    <script>
+						        new Valine({
+						            el: '#vcomments' ,
+								    appId: 'VE7y7Rq5F1RhlzC3mHSqya39-gzGzoHsz',
+								    appKey: '8HJmqX1VuEGLp2X0uc5fO9df',
+								    notify:false, 
+								    verify:false, 
+								    avatar:'mm', 
+								    placeholder: '客官，欢迎您的评论！（记得加上昵称哦~）' 
+								});
+						    </script>
 						</article>
 					</main>
 				</div>
@@ -152,7 +151,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<p class="copyright">2018 - 2019 &copy; powered by Masa</p>
+						<p class="copyright">2018 - 2019 &copy; powered by MasaYu</p>
 					</div>
 				</div>
 			</div>

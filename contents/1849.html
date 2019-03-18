@@ -19,6 +19,10 @@
 	    <script src="../js/bootstrap.min.js"></script>
 	    <script src="../js/pace.min.js"></script>
 	    <script src="../js/modernizr.custom.js"></script>
+
+	    <!-- comment -->
+	    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+        <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 	</head>
 
 	<body id="single">
@@ -64,7 +68,7 @@
 							</header>
 							<div class="entry-content clearfix">	
 								<div>
-									<h3>一、八个概念帮你读完机器学习硕士课程</h3>
+									<h3>八个概念帮你读完机器学习硕士课程</h3>
 									<p>
 										<p>在互联网公司，你肯定多多少少听到过机器学习，深度学习之类的术语。那么这些术语到底是什么意思？下面我来简单介绍一下和机器学习、深度学习相关的八个基本概念。</p>
 										<p>机器学习的好处是可以预测。机器学习的重点是根据模式等手训练过的因素预测东西。例如，如果你上传一张新照片，然后它马上告诉你图片里面的每个人都是谁。</p>
@@ -88,7 +92,7 @@
 								</div>
 
 								<div>
-									<h3>二、关于信息商品</h3>
+									<h3>关于信息商品</h3>
 									<p>
 										<p>在当前互联网行业，人们消费的不是实体，而是所谓的“信息商品”。</p>
 										<p>说到信息商品，其三个特征如下：首先，其本身是一种经验商品；你必须对其有接触，才知道是什么东西。其次，非常讲究规模效应；固定成本较高，边际成本较低。再者，其本质是一种公共产品。普遍具有非竞争性，很难实现排他性。</p>
@@ -102,27 +106,20 @@
 									
 									</p>	
 								</div>
-								
-								<div>
-									<h3>三、关于打折的英语词汇</h3>
-									<p>
-										<p>on sale: 打折</br>
-											I got something on sale. 我趁打折的时候买了一点东西。</br>
-											go on sale. 即将打折，即将发售。</br>
-											The new iphone will go on sale.</br>
-											clearance sale: 清仓甩卖</br>
-											liquidation sale: 停业清理大甩卖</br>
-											sales assintant: 销售员</br>
-											sales department: 销售部</br>
-											get a discount: 获得折扣</br>
-											get a good deal: 捡了个大便宜</br>
-											It's a stesal! 太便宜了！</br>
-											discount stores: 折扣店</br>
-											mark down: 降低...价格</br>
-											these are markdowns. 这些是打折商品。</p>
-									</p>
-								</div>							
+													
 							</div>
+							<div id="vcomments"></div>
+						    <script>
+						        new Valine({
+						            el: '#vcomments' ,
+								    appId: 'VE7y7Rq5F1RhlzC3mHSqya39-gzGzoHsz',
+								    appKey: '8HJmqX1VuEGLp2X0uc5fO9df',
+								    notify:false, 
+								    verify:false, 
+								    avatar:'mm', 
+								    placeholder: '客官，欢迎您的评论！（记得加上昵称哦~）' 
+								});
+						    </script>
 						</article>
 					</main>
 				</div>
@@ -132,7 +129,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<p class="copyright">2018 - 2019 &copy; powered by Masa</p>
+						<p class="copyright">2018 - 2019 &copy; powered by MasaYu</p>
 					</div>
 				</div>
 			</div>

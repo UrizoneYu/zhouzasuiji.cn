@@ -19,6 +19,10 @@
 	    <script src="../js/bootstrap.min.js"></script>
 	    <script src="../js/pace.min.js"></script>
 	    <script src="../js/modernizr.custom.js"></script>
+
+	    <!-- comment -->
+	    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+        <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 	</head>
 
 	<body id="single">
@@ -64,7 +68,7 @@
 							</header>
 							<div class="entry-content clearfix">	
 								<div>
-									<h3>一、脱离现有的平台，做自己的平台</h3>
+									<h3>脱离现有的平台，做自己的平台</h3>
 									<p>
 										<p>今年下半年，一波波裁员寒潮，迎面扑来。过度地依赖公司，一直为公司打工，从今年下半年来说，开始暴露出其劣势。</p>
 										<p>未来的生产关系亦或工作趋势，会是什么样呢？我们可以大胆设想一下：个人与个体变得更加独立，个人技能树会呈现T形化；公司会更加偏向于向前者进行外包合作，而不是雇佣关系。这样既减少了雇佣成本，同时也提高了个体的职业自由性。</p>
@@ -90,7 +94,7 @@
 								</div>
 
 								<div>
-									<h3>二、请拒绝好为人师</h3>
+									<h3>请拒绝好为人师</h3>
 									<p>
 									<p>好为人师是人性通病。尤其是互联网时代，每个人似乎都懂点什么，但又不精通，却又喜欢给人建议。</p>
 									<p>我们都喜欢给别人出主意、提建议。但是，大多数建议都是无用的，与听建议的人相比，其实提建议的人更高兴。因为它不是建立在理解别人的基础上。我们每个人都需要别人的帮助来解决自己的问题，但是这并不意味这他们愿意提取你的建议。</p>	
@@ -104,7 +108,7 @@
 								</div>
 								
 								<div>
-									<h3>三、真正的职场经验</h3>
+									<h3>真正的职场经验</h3>
 									<p>
 										<p>对于职场菜鸟来说，关于职场经验的理解似乎都停留在狭义的理解上 —在某个极为具体而明确的技术工种上的从业资历。</p>
 										<p>其实，工作经验用一句话概括，就是学习的能力。这比具体的业务知识更重要。</p>
@@ -115,32 +119,20 @@
 										<p>能敏锐的发现问题，是职场最有价值的体现。分析问题需要严谨的因果逻辑和对数据、业务的熟悉。而当你能完美的体现时，其实解决问题就会变得轻而易举。</p>
 									</p>
 								</div>		
-
-								<div>
-									<h3>四、长话短说没问题</h3>
-									<p>
-									<p>Basically：主要的，基本上</br>
-										Overall：细节上好的坏的不一一罗列，从总体上给一个结论</br>
-										For the most part：总体来说</br>
-										For the most part, I want to seek a job in Japan.</br>
-										In any case：当谈话有一些跑题，你想把话题拉回来。总体来说</br>
-										Long story short：长话短说</br>
-										Lee, just make long story short. 小李，长话短说吧。</br>
-										The long and short of it is that....总的来说</br>
-										In shrot: 在书面表达上更加常用，写作和比较正式的时候可以用到。</br>
-										In a nutshell：简而言之</br>
-										Just give it to me in a nut shell：说的简洁一点吧。</br>
-										Fast forward：快进</br>
-										Fast forward to today: 接任何时间段，表示多少年后。时至今日</br>
-										Gist：要点</br>
-										The gist is ... ：要点是.....</br>
-										My english is not great, but I think I got the gist of it. 虽然</br>我的英语不是很好，但是我觉得我明白要点了。</br>
-										All in all：总而言之</br>
-										There are some mistakes, but all in all, it was good. 虽然有一些起伏，但是总而言之，还是挺好的。</P>
-
-									</p>
-								</div>					
+					
 							</div>
+							<div id="vcomments"></div>
+						    <script>
+						        new Valine({
+						            el: '#vcomments' ,
+								    appId: 'VE7y7Rq5F1RhlzC3mHSqya39-gzGzoHsz',
+								    appKey: '8HJmqX1VuEGLp2X0uc5fO9df',
+								    notify:false, 
+								    verify:false, 
+								    avatar:'mm', 
+								    placeholder: '客官，欢迎您的评论！（记得加上昵称哦~）' 
+								});
+						    </script>
 						</article>
 					</main>
 				</div>
@@ -150,7 +142,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<p class="copyright">2018 - 2019 &copy; powered by Masa</p>
+						<p class="copyright">2018 - 2019 &copy; powered by MasaYu</p>
 					</div>
 				</div>
 			</div>

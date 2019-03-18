@@ -19,6 +19,10 @@
 	    <script src="../js/bootstrap.min.js"></script>
 	    <script src="../js/pace.min.js"></script>
 	    <script src="../js/modernizr.custom.js"></script>
+
+	    <!-- comment -->
+	    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+        <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 	</head>
 
 	<body id="single">
@@ -65,10 +69,10 @@
 							<div class="entry-content clearfix">	
 
 								<div>
-									<h3>一、关于竞品分析</h3>
+									<h3>关于竞品分析</h3>
 									<p>
 										<p>
-											最近准备进行轮播的竞品分析报告。在写竞品分析之前，感觉需要对其有个大致的了解。下面是这几天了解到的竞品分析的简要知识点。
+											最近准备轮播的竞品分析报告。在写竞品分析之前，感觉需要对其有个大致的了解。下面是这几天了解到的竞品分析的简要知识点。
 										</p>
 										<p>
 											首先，竞品分析英文名为competitive analysis，源于经济学领域。其中市场营销和战略管理方面的分析，是指对现有或潜在的竞争产品的优势和劣势进行评价。目前主要被广泛应用于互联网产品的立项筹备阶段。
@@ -145,7 +149,7 @@
 								</div>
 								
 								<div>
-									<h3>二、增长黑客</h3>
+									<h3>增长黑客</h3>
 									<p>
 										<p>
 											1，增长就是以数据驱动营销，以迭代验证策略，通过技术手段实现爆发式增长。
@@ -185,6 +189,18 @@
 								</div>
 
 							</div>
+							<div id="vcomments"></div>
+						    <script>
+						        new Valine({
+						            el: '#vcomments' ,
+								    appId: 'VE7y7Rq5F1RhlzC3mHSqya39-gzGzoHsz',
+								    appKey: '8HJmqX1VuEGLp2X0uc5fO9df',
+								    notify:false, 
+								    verify:false, 
+								    avatar:'mm', 
+								    placeholder: '客官，欢迎您的评论！（记得加上昵称哦~）' 
+								});
+						    </script>
 						</article>
 					</main>
 				</div>
@@ -194,7 +210,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<p class="copyright">2018 - 2019 &copy; powered by Masa</p>
+						<p class="copyright">2018 - 2019 &copy; powered by MasaYu</p>
 					</div>
 				</div>
 			</div>
