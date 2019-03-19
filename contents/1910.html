@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>1910 | 週雑碎記</title>
+
+		<!-- meta -->
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta content="週雑碎記, 生活, 感悟, 职场, 日语, 英语, 于睿政, Masa, MasaYu" name="keywords">
+ 		<meta content="雑碎記，一周一碗杂碎汤。不多不少，小两千。记录和分享自己感兴趣的点点滴滴。 " name="description">
+ 		<meta content="于睿政" name="author">
+
+	    <!-- css -->
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/pace.css">
+	    <link rel="stylesheet" href="../css/custom.css">
+	    <link rel="stylesheet" href="https://cdn.bootcss.com/ionicons/2.0.1/css/ionicons.min.css">
+	    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico">
+
+	    <!-- js -->
+	    <script src="../js/jquery-2.1.3.min.js"></script>
+	    <script src="../js/bootstrap.min.js"></script>
+	    <script src="../js/pace.min.js"></script>
+	    <script src="../js/modernizr.custom.js"></script>
+
+	    <!-- comment -->
+	    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+        <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+	</head>
+
+	<body id="single">
+		<div class="container">	
+			<header id="site-header">
+				<div class="row">
+					<div class="col-md-4 col-sm-5 col-xs-8">
+						<div class="logo">
+							<h1><a href="../index.html">週雑碎記</a></h1>
+						</div>
+					</div><!-- col-md-4 -->
+					<div class="col-md-8 col-sm-7 col-xs-4">
+						<nav class="main-nav" role="navigation">
+							<div class="navbar-header">
+  								<button type="button" id="trigger-overlay" class="navbar-toggle">
+    								<i class="icon ion-navicon"></i>
+  								</button>
+							</div>
+
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  								<ul class="nav navbar-nav navbar-right">
+    								<li class="cl-effect-11"><a href="../index.html" data-hover="Home">Home</a></li>
+    								<li class="cl-effect-11"><a href="../full-width.html" data-hover="Blog">Blog</a></li>
+    								<li class="cl-effect-11"><a href="../about.html" data-hover="About">About</a></li>
+  								</ul>
+							</div><!-- /.navbar-collapse -->
+						</nav>
+					</div><!-- col-md-8 -->
+				</div>
+			</header>
+		</div>
+
+		<div class="content-body">
+			<div class="container">
+				<div class="row">
+					<main class="col-md-12">
+						<article class="post post-1">
+							<header class="entry-header">
+								<h1 class="entry-title">1910. 搜索引擎知否</h1>
+								<div class="entry-meta">
+									<span class="post-date"><a><time class="entry-date" datetime="2012-11-09T23:15:57+00:00">Mar. 08, 2019</time></a></span>
+								</div>
+							</header>
+							<div class="entry-content clearfix">	
+
+								<div>
+									<h3>搜索引擎知否</h3>
+									<p>
+										<p>
+											搜索引擎的本质：一种信息获取方式。其经历主要分为：分类目录、相关性搜索、高质量搜索和个性化搜索四个阶段。
+										</p>
+										<p>
+											其中，该分类目录基本是按照财经类、新闻类、体育类、游戏类等项目进行整理，用户可以通过分类目录来查找需要的信息。但是，分类目录中没有收录的信息，可能会是在家需要的。而相关性搜素是通过查找用户输入的关键字与网页信息的匹配程度，展示网页列表。但是，如果只考虑相关性，不考虑网页的质量的话，网页可以通过大量罗列跟内容无关的关键词，来提高与关键词的相关性。
+										</p>
+										<p>
+											搜索引擎到底好不好，要具备三个标准：要快，要查的准，要稳定。
+										</p>
+										<p>
+											基本的信息引擎主要分为：信息获取、信息处理、信息展示。其中信息获取是整个系统的基石，要求爬虫能够爬取全网内容；信息处理主要是对原始数据清洗，构建索引，然后存入数据库；信息展示是将用户的查询词与数据库进行检索匹配并展示给用户。
+										</p>
+										<p>
+											构建索引主要有两个过程：查找关键词、把关键词与网页对应起来。查找关键词分为两步：分词和获取关键词。对于分词，我们可以对语料库中相邻出现的各个字的组合的次数进行统计，计算所有字相邻出现的频率。对于获取关键词，我们先把内容中没有很强实际意义的功能词作为停用词。停用词不能作为关键词。
+										</p>
+										<p>
+											对于搜索结果排序。如果一个网页中关键词的出现次数很多的话，该网页与搜索的关键词应该更匹配。我们用词频（Term Frequency,TF）表示关键词在一篇文章中出现的频率，代表网页与关键词的匹配程度。
+										</p>
+										<p>
+											词频 = 某个词在网页中出现的次数 / 网页的总字数
+										</p>
+										<p>
+											但是，如果关键词为“产品经理的工作”，一些出现很多次数工作关键词的网站，就很可能排在前面，这时候，逆文本频率就出现了。逆文本频率（Inverse Document Frequency, IDF）可以理解为关键词在所有网页中出现的频率，文本频率越高，这个词就越通用，有效信息就越少。因此把文本频率取倒数就是逆文本频率。逆文本频率和词频结合起来，就是TF-IDF模型。
+										</p>
+										<p>
+											TF-IDF = 词频 X 逆文本频率
+										</p>
+										<p>
+											一个关键词在一个网页中出现的频率越高，这个关键词月重要，排名越靠前。在所有网页中出现的频率越高，这个关键词告诉我们的信息越少，排名要越靠后。
+										</p>
+										<p>
+											上面提到的搜索结果排序，仅仅考虑了相关性，其结果并不好。因此，我们还要考虑网页质量的高低。
+										</p>
+										<p>
+											配齐和布林借鉴了学术界评判论文质量的方法，看论文的引用次数，引用的次数越多，。论文的质量月发哦。于是，使用PageRank值表示每个网页的质量，其核心为：如果一个网页有越多的链接指向它，说明这个网页质量越高，值越高；排名靠前的网页应该有更大的表决权，当一个网页被排名靠前的网页链接时，值也越高，排名也更靠前。
+										</p>
+										<p>
+											搜索结果会影响流量，流量影响利润，因此SEO（搜索引擎优化）营运而生。
+										</p>
+										<p>
+											SEO优化通常有两种方式：网站内部优化、外部优化。内部优化主要是优化网页的内容，比如提高关键词的数量，优化网页内部标签，使用很小的字重复关键词，使用跟背景相同颜色重复一些高流量词语。外部优化主要是优化链接，不如添加友情链接、论坛、贴吧等。
+										</p>
+										<p>
+											简单来说，SEO的优化基本就是针对TF-IDF和PageRank的排序方式。
+										</p>
+									</p>
+								</div>
+								
+								
+
+							</div>
+
+							<div id="vcomments"></div>
+						    <script>
+						        new Valine({
+						            el: '#vcomments' ,
+								    appId: 'VE7y7Rq5F1RhlzC3mHSqya39-gzGzoHsz',
+								    appKey: '8HJmqX1VuEGLp2X0uc5fO9df',
+								    notify:false, 
+								    verify:false, 
+								    avatar:'mm', 
+								    placeholder: '客官，欢迎您的评论！（记得加上昵称哦~）' 
+								});
+						    </script>
+
+						</article>
+					</main>
+				</div>
+			</div>
+		</div>
+
+
+
+		<footer id="site-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p class="copyright">2018 - 2019 &copy; powered by MasaYu</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Mobile Menu -->
+		<div class="overlay overlay-hugeinc">
+			<button type="button" class="overlay-close"><i class="ion-ios-close-empty"></i></button>
+			<nav>
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../full-width.html">Blog</a></li>
+					<li><a href="../about.html">About</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<script src="../js/script.js"></script>
+
+	</body>
+</html>
